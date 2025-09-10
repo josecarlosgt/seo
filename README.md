@@ -1,28 +1,31 @@
 # Tutorial: Implementing On-page SEO
 
-This document describes the steps for structuring information in an HTML document using HTML5 semantic tags. The content is based on the narrative for the [Laguna Brava Ecotourism Website](https://docs.google.com/document/d/1km0BxhWLX4hsJDRVkEDGWBFxr76Hyf_FNUubJtaPo5c/edit?usp=sharing) created following [the web design process](https://docs.google.com/presentation/d/17QH5RDWIGE9UkEPn0g89vhl6Iw7_nao2lsCcfX6HS2o/edit?usp=sharing) discussed in class.
+In this lab, you will apply several techniques to optimize a web page for search engines. By using HTML elements like headings and meta tags, you will learn how to improve content relevance and visibility in search results.
 
 ## Skills
 - Optimize Web content by applying on-page SEO techniques
 
-Each task below provides links that explain the purpose of each HTML tag. These links point to two popular learning resources on web development:
+The tasks below provide links that explain the purpose of each HTML tag. These links point to two popular learning resources on web development:
 
 - [Mozilla MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). This website contains detailed and up-to-date documentation on HTML.
 - [W3Schools](https://www.w3schools.com/) This website contains examples and brief explanations of HTML.
 
 ## Preview
 
-![Web page Preview](page-preview.jpg)
-
-Download the [base.zip](https://github.com/josecarlosgt/Web-Design-and-Development/raw/refs/heads/tutorial-2-designing-and-structuring-content-HTML5/base.zip) and complete the following tasks.
-
-## Part I: On-page SEO
-On-page Search Engine Optimization (SEO) techniques involve crafting a list of keywords that describe the most relevant and significant aspects of your web page. 
+Download the [base.zip](https://github.com/josecarlosgt/seo/raw/refs/heads/main/base.zip) and complete the following tasks.
 
 ## Task 1: Optimizing the content for keywords
+On-page Search Engine Optimization (SEO) techniques involve crafting a list of keywords that describe the most relevant and significant aspects of your web page. 
+
 For this page, we will use the following two keywords:
-- Laguna Brava
 - Things to do
+- Laguna Brava 
+
+*Things to do* " is a generic keyword that reflects common search intent related to activities, often used by travelers.
+
+*Laguna Brava* is a specific, location-based keyword that narrows the topic to a particular destination in Guatemala.
+
+Combined, they form the phrase "Things to do in Laguna Brava", which reflects a broad intent with a precise context. Using this phrase in titles and headings improves SEO by targeting users who are actively seeking activity-based information for a specific location, improving enhancing both content relevance and search visibility.
 
 Ensure the page's title and main heading contain the target keywords above.
 
@@ -56,3 +59,18 @@ Search engines rely on you providing accurate descriptions of images in the alt 
     ...
 ...
 ```
+## Task 4: Add the canonical URL
+
+After you publish your web page to GitHub Pages and get the live URL, add that URL to your HTML page as a canonical link.
+
+A canonical link tells search engines which version of a page is the "main" one. This helps avoid problems if there are duplicate versions of the same page (for example, with different URLs or tracking codes). It also helps Google rank the correct version of your page.
+
+Add the following inside the <head> section of your HTML file:
+
+```html
+    <head>
+        <link rel="canonical" href="https://example.com/page.html">
+    <head>
+```
+
+Be sure to replace the URL with the actual one for your published page.
