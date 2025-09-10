@@ -10,9 +10,26 @@ The tasks below provide links that explain the purpose of each HTML tag. These l
 - [Mozilla MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). This website contains detailed and up-to-date documentation on HTML.
 - [W3Schools](https://www.w3schools.com/) This website contains examples and brief explanations of HTML.
 
-## Preview
+## Audit your web page for SEO
 
-Download the [base.zip](https://github.com/josecarlosgt/seo/raw/refs/heads/main/base.zip) and complete the following tasks.
+Download the [base.zip](https://github.com/josecarlosgt/seo/raw/refs/heads/main/base.zip) and audit your web page for common SEO issues using the following tools:
+
+Run:
+1. **Pre-audit** — [WR3C Markup Validation Service](https://validator.w3.org/)
+
+- Validates your HTML markup.
+- Helps catch structural errors that may affect SEO and browser rendering.
+
+2. **On-Page audit** – [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/)
+
+- Audits your page as rendered in the browser.
+- Checks SEO, performance, accessibility, and more.
+- Run via Chrome DevTools > Lighthouse tab.
+
+3. **Source code audit** – [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/)
+
+- Crawls the page and checks the raw HTML and metadata.
+- Flags issues such as missing titles, alt attributes, and canonical links.
 
 ## Task 1: Optimizing the content for keywords
 On-page Search Engine Optimization (SEO) techniques involve crafting a list of keywords that describe the most relevant and significant aspects of your web page. 
