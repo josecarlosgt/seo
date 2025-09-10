@@ -31,7 +31,7 @@ Ensure the page's title and main heading contain the target keywords above.
 
 ```html
     ...
-    <title>Things to Do in Laguna Brava</title>
+    <title>Things to Do in Laguna Brava – Kayaking & Local Tours in Guatemala</title>
     ...
     <h1>Things to Do in Laguna Brava</h1>
     ...
@@ -59,7 +59,27 @@ Search engines rely on you providing accurate descriptions of images in the alt 
     ...
 ...
 ```
-## Task 4: Add the canonical URL
+
+## Task 4: Make links text descriptive
+
+Update your links to use meaningful, descriptive text instead of generic phrases like "Click here."
+
+Avoid:
+```html
+    <p>The area around Laguna Brava has been inhabited by Mayan communities of the Chuj ethnicity since the 19th century. <a href="https://en.wikipedia.org/wiki/Chuj_people">Click here</a> to learn more.
+    ...
+    </p>
+```
+
+Use:
+
+```html
+    <a href="https://en.wikipedia.org/wiki/Chuj_people">Chuj ethnicity</a>
+```
+
+Descriptive link text improves accessibility and helps search engines better understand the context of the linked content.
+
+## Task 5: Add the canonical URL
 
 After you publish your web page to GitHub Pages and get the live URL, add that URL to your HTML page as a canonical link.
 
