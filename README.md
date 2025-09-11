@@ -12,7 +12,7 @@ The tasks below provide links that explain the purpose of each HTML tag. These l
 
 ## Audit your web page for SEO
 
-Download the [base.zip](https://github.com/josecarlosgt/seo/blob/main/base.zip) and audit your web page for common SEO issues using the following tools:
+Download the [base.zip](https://github.com/josecarlosgt/seo/raw/refs/heads/main/base.zip) and audit your web page for common SEO issues using the following tools:
 
 Run:
 1. **Pre-audit** — [WR3C Markup Validation Service](https://validator.w3.org/)
@@ -42,7 +42,7 @@ For this page, we will use the following two keywords:
 
 *Laguna Brava* is a specific, location-based keyword that narrows the topic to a particular destination in Guatemala.
 
-Combined, they form the phrase "Things to do in Laguna Brava", which reflects a broad intent with a precise context. Using this phrase in titles and headings improves SEO by targeting users who are actively seeking activity-based information for a specific location, improving enhancing both content relevance and search visibility.
+Combined, they form the phrase "Things to do in Laguna Brava", which reflects a broad intent with a precise context. Using this phrase in titles and headings improves SEO by targeting users who are actively seeking activity-based information for a specific location, improving content relevance and search visibility.
 
 Ensure the page's title and main heading contain the target keywords above.
 
