@@ -12,7 +12,7 @@ The tasks below provide links that explain the purpose of each HTML tag. These l
 
 ## Audit your web page for SEO
 
-Download the [base.zip](https://github.com/josecarlosgt/seo/raw/refs/heads/main/base.zip) and audit your web page for common SEO issues using the following tools:
+Download the [base.zip](https://github.com/josecarlosgt/seo/blob/main/base.zip) and audit your web page for common SEO issues using the following tools:
 
 Run:
 1. **Pre-audit** — [WR3C Markup Validation Service](https://validator.w3.org/)
