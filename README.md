@@ -1,4 +1,4 @@
-# Tutorial: Implementing On-page SEO
+# Tutorial: Implementing On-page SEO 
 
 In this lab, you will apply several techniques to optimize a web page for search engines. By using HTML elements like headings and meta tags, you will learn how to improve content relevance and visibility in search results.
 
