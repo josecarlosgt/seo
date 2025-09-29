@@ -31,6 +31,8 @@ Run:
 - Crawls the page and checks the raw HTML and metadata.
 - Flags issues such as missing titles, alt attributes, and canonical links.
 
+You may also visit the page [How Search organizes information](https://www.google.com/search/howsearchworks/crawling-indexing/) to learn more about how Google's Search service works.
+
 ## Task 1: Optimizing the content for keywords
 On-page Search Engine Optimization (SEO) techniques involve crafting a list of keywords that describe the most relevant and significant aspects of your web page. 
 
@@ -54,7 +56,7 @@ Ensure the page's title and main heading contain the target keywords above.
     ...
 ```
 
-> The target keywords should also appear on the web page text. You may also visit the page [How Search organizes information](https://www.google.com/search/howsearchworks/crawling-indexing/) to get a basic understanding of how Google's Search service works.
+> The target keywords should also appear in the web page text. 
 
 ## Task 2: Add the meta description tag
 Provide a description using the [meta tag](https://www.w3schools.com/tags/tag_meta.asp). Make sure you also include your keywords in the description.
