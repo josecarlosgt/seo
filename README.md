@@ -58,11 +58,17 @@ Ensure the page's title and main heading contain the target keywords above.
 
 > The target keywords should also appear in the web page text. 
 
-## Task 2: Add the meta description tag
+## Task 2: Add a meta description and specify the page language
 Provide a description using the [meta tag](https://www.w3schools.com/tags/tag_meta.asp). Make sure you also include your keywords in the description.
 
 ```html
 <meta name="description" content="Your guide for things to do and activities in  Laguna Brava lake in western Guatemala.">
+```
+
+Specify the language of your HTML document by adding the lang attribute to the <html> tag. This tells browsers and search engines what language your content is in.
+
+```html
+<html lang="en">
 ```
 
 ## Task 3: Specify image descriptions and size
