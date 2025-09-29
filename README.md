@@ -65,7 +65,7 @@ Provide a description using the [meta tag](https://www.w3schools.com/tags/tag_me
 <meta name="description" content="Your guide for things to do and activities in  Laguna Brava lake in western Guatemala.">
 ```
 
-## Task 3: Add image descriptions
+## Task 3: Specify image descriptions and size
 Search engines rely on you providing accurate descriptions of images in the alt text. This will also help your images show up in the results of image-based searches.
 
 ```html
@@ -75,6 +75,19 @@ Search engines rely on you providing accurate descriptions of images in the alt 
     <img src="img/kayak.jpg" alt="Lake challenge kayak" title="Kayak on Laguna Brava">
     ...
     <img src="img/boat.jpg" alt="Sit Back & Relax boat" title="Boat trip in Laguna Brava">
+    ...
+...
+```
+
+To improve loading performance and reduce layout shifts, make sure to specify the width and height attributes in your <img> tags. This helps the browser reserve the right amount of space for each image while the page is loading. If you don’t include these, the page layout might "jump" as images appear, which can be distracting to users and negatively affect your SEO score, especially in the Cumulative Layout Shift (CLS) metric. Cumulative Layout Shift (CLS) is a measure of how much a web page’s content unexpectedly moves around while it's loading, which can make the page feel jumpy or unstable to users.
+
+```html
+    ...
+    <img src="img/panoramic-laguna-brava-2.jpg" alt="Panoramic view of lake Laguna Brava" title="Laguna Brava" width="1500" height="369">
+    ...
+    <img src="img/kayak.jpg" alt="Lake challenge kayak" title="Kayak on Laguna Brava" width="450" height="254">
+    ...
+    <img src="img/boat.jpg" alt="Sit Back & Relax boat" title="Boat trip in Laguna Brava" width="450" height="254">
     ...
 ...
 ```
