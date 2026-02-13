@@ -12,7 +12,7 @@ The tasks below provide links that explain the purpose of each HTML tag. These l
 
 ## Audit your web page for SEO
 
-Download the [base.zip](https://github.com/josecarlosgt/seo/raw/refs/heads/main/base.zip) and audit your web page for common SEO issues using the following tools:
+Download the [base.zip](https://github.com/josecarlosgt/seo/raw/refs/heads/main/base.zip). Without making any changes to the source code, upload it to a GitHub repository and publish it using GitHub Pages. Use the generated URL to audit the web page for common SEO issues using the following tools:
 
 Run:
 1. **Pre-audit** — [WR3C Markup Validation Service](https://validator.w3.org/)
@@ -30,6 +30,7 @@ Run:
 
 - Crawls the page and checks the raw HTML and metadata.
 - Flags issues such as missing titles, alt attributes, and canonical links.
+- Running the tool on "Spider" mode, crawl the page first and then generate the report via Reports > Issues Overview. 
 
 ## Task 1: Optimizing the content for keywords
 On-page Search Engine Optimization (SEO) techniques involve crafting a list of keywords that describe the most relevant and significant aspects of your web page. 
